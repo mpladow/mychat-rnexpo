@@ -15,7 +15,9 @@ const Lobby: React.FC<Props> = ({ joinRoom }) => {
 	};
 	return (
 		<View>
+		<Text>Username</Text>	
 			<Input onChange={(e) => setUser(e.target.value)} />
+			<Text>Room Number</Text>
 			<Input onChange={(e) => setRoom(e.target.value)} />
 
 			<Button
